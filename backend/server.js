@@ -19,10 +19,11 @@ const JWT_SECRET = process.env.JWT_SECRET || "your-secret-key";
  ✅ 1. CORS MUST COME FIRST (BEFORE STATIC FILES)
 --------------------------------------------------- */
 const allowedOrigins = [
-  "http://localhost:3000",
+ "http://localhost:3000",
   "https://localhost:3000",
   "http://localhost:5173",
   "https://localhost:5173",
+  "https://ar-viewer-frontend.onrender.com"
 ];
 
 app.use((req, res, next) => {
