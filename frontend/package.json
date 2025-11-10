@@ -10,10 +10,11 @@
     "preview": "serve -s dist -l $PORT"
   },
   "dependencies": {
-    "lucide-react": "^0.553.0",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
-    "three": "^0.181.0"
+  "serve": "^14.2.3",
+  "lucide-react": "^0.553.0",
+  "react": "^19.1.1",
+  "react-dom": "^19.1.1",
+  "three": "^0.181.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
