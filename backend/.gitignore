@@ -1,0 +1,49 @@
+# ──────────────────────────────
+# Dependencies
+# ──────────────────────────────
+node_modules/
+package-lock.json
+
+# ──────────────────────────────
+# Environment Files (DO NOT PUSH)
+# ──────────────────────────────
+.env
+.env.local
+.env.production
+.env.development
+
+# ──────────────────────────────
+# SSL Certificates (DO NOT PUSH)
+# ──────────────────────────────
+*.pem
+localhost.pem
+localhost-key.pem
+
+# ──────────────────────────────
+# Uploads (Models & Thumbnails)
+# ──────────────────────────────
+uploads/*
+!uploads/.gitkeep
+!uploads/models/.gitkeep
+!uploads/thumbnail/.gitkeep
+
+# ──────────────────────────────
+# Logs
+# ──────────────────────────────
+logs/
+*.log
+npm-debug.log*
+
+# ──────────────────────────────
+# OS Junk
+# ──────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ──────────────────────────────
+# IDE / Editor
+# ──────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
